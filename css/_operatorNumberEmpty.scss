@@ -1,0 +1,27 @@
+.operator, .number, .empty{
+    width: 50px; height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 17px;
+    outline: none;
+    color: #fff;
+}
+
+.number, .empty{
+    background-color: rgba(227, 229, 233, 0.11);
+}
+
+.operator{
+    background-color: rgba(241, 241, 241, 0.103)
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    font-size: 13px;
+}

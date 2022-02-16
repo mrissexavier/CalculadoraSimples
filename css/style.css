@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: 'Sarala', sans-serif;
+}
+
+body {
+  font-family: 'Righteous', cursive;
+  font-size: 1rem;
+  background: -webkit-gradient(linear, left top, right top, from(#08AEEA), to(#2AF598));
+  background: linear-gradient(90deg, #08AEEA 0%, #2AF598 100%);
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+  margin-top: 50px;
+  background-color: rgba(129, 224, 224, 0.171);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  -webkit-box-shadow: 0.5rem 1.1rem 1.3rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.5rem 1.1rem 1.3rem rgba(0, 0, 0, 0.1);
+  padding: 55px;
+  border-radius: 12px;
+}
+
+#calculator {
+  width: 350px;
+  padding: 15px;
+  border-radius: 13px;
+  outline: none;
+  font-size: 1.2rem;
+  color: #0f0c29;
+  background: rgba(112, 111, 111, 0.06);
+  position: relative;
+}
+
+#result {
+  height: 120px;
+}
+
+#history {
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: #000;
+}
+
+#output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+
+#keyboard {
+  height: 400px;
+}
+
+.operator, .number, .empty {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50px;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 17px;
+  outline: none;
+  color: #fff;
+}
+
+.number, .empty {
+  background-color: rgba(227, 229, 233, 0.11);
+}
+
+.operator {
+  background-color: rgba(241, 241, 241, 0.103);
+}
+
+.number, .operator {
+  cursor: pointer;
+}
+
+.operator:active, .number:active {
+  font-size: 13px;
+}
+
+button:nth-child(1) {
+  font-size: 20px;
+  background-color: #5e60ce;
+}
+
+button:nth-child(2) {
+  font-size: 20px;
+  background-color: #5390d9;
+}
+
+button:nth-child(3) {
+  font-size: 20px;
+  background-color: #4ea8de;
+}
+
+button:nth-child(4) {
+  font-size: 20px;
+  background-color: #48bfe3;
+}
+
+button:nth-child(8) {
+  font-size: 20px;
+  background-color: #56cfe1;
+}
+
+button:nth-child(12) {
+  font-size: 20px;
+  background-color: #64dfdf;
+}
+
+button:nth-child(16) {
+  font-size: 20px;
+  background-color: #72efdd;
+}
+
+button:nth-child(20) {
+  font-size: 20px;
+  background-color: #80ffdb;
+}
+/*# sourceMappingURL=style.css.map */
